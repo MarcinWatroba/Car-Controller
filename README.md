@@ -21,4 +21,5 @@ The AI pathfinding algorithms in this project has been developed by Marcin Watro
 Algorithm creates an A* grid with usual passable and impassable nodes, however, semi-passable nodes have been added around impassable ones. This ensures that car is not driving too close to the walls, unless there is no other way. The first part of the line of sight algorithm removes A* generated waypoints based on the line of sight. The second part of the line of sight algorithm relocates nodes that are left to more optimal locations, again based on line of sight.
 
 <p>Once path is generated, a simple automated car follows it using vector calculations to determine speed and turning angles. On the picture, impassable nodes can be seen in red, and semi- passable ones in blue. Path can also be seen as black lines connected by nodes which are represented as perpendicular lines. Car is the green rectangle in the middle.</p>
+<img src="https://github.com/marcin388/Car-Controller/blob/master/carController.jpg">
 
